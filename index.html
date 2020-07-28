@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Super Evil To-Do List</title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/monsterList.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+   
+<!-- container --> 
+<div class="container-fluid">
+      <div class="jumbotron">
+	    <h1 class="text-hide">Super Evil To-Do List</h1>
+        <img src="logo.svg" alt="Super Evil To-Do List" class="logo text-center">
+      </div>
+
+	  <div class="row">
+        <div class="col-sm-12">
+         	 
+         	 <form class="form-block my-1">
+			  	
+			  	<div class="input-group input-group-lg has-warning" id="addItemForm">
+				  <input type="text" class="form-control form-control-warning" id="addItem" placeholder="Add Item">
+			      <span class="input-group-btn align-top">
+			        <button class="btn btn-success add" type="button">+</button>
+			      </span>
+			    </div>
+			    <div class="alert alert-warning mt-1 warning" role="alert">
+					<strong>Warning!</strong> Please fill in the input form before trying to add content to the 
+				</div>
+
+			</form>
+         	 
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+         	 <ul class="list-group" id="mainList">
+			</ul>
+        </div>
+      </div>
+</div> 
+<!-- /container -->
+    
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/monsterList.js"></script>
+    
+  </body>
+</html>
